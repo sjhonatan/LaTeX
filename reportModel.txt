@@ -1,0 +1,9 @@
+\begin{itemize}
+\item Acuracidade do classificador
+\end{itemize}
+
+\begin{Figure}
+    \centering
+    \includegraphics[width=\linewidth]{pyAccuracy}
+    %\captionof{figure}{my caption of the figure}
+\end{Figure}

@@ -1,0 +1,15 @@
+\begin{Figure}
+\begin{itemize}
+\item Relação de palavras entre pyStatus e pyState1
+\end{itemize}
+\begin{Figure}
+\centering
+\begin{tabular}{llrr}
+\color{myblue}Texto & \color{myblue}test & \color{myblue}test & \color{myblue}test\\
+\hline
+Test & 1 & 48 & 48\\
+Test & 1 & 48 & 48\\
+Test & 1 & 48 & 48\\
+Test & 1 & 48 & 48\\
+\end{tabular}
+\end{Figure}
