@@ -3,9 +3,9 @@
 """
 Jhonatan da Silva
 Last Updated version :
-Wed Mar 29 10:20:00 2017
+Wed Apr 12 09:58:12 2017
 Number of code lines: 
-69
+59
 """
 import subprocess
 from datetime import date
@@ -19,19 +19,19 @@ weekMap = {0:'Segunda',1:'Terça',2:'Quarta',3:'Quinta',4:'Sexta',5:'Sábado',6:
 
 def main():
     color = '\\color{myred}'
-    init = weekMap[weekDay] + ' $\\rightarrow$ ' + reportDay  + ' $\\rightarrow$ '+color + 'Objetivos'
-    items = toDo()
-    writeLaTeX(Init(init),itemize(items))
-    #init = weekMap[weekDay] + ' $\\rightarrow$ ' + reportDay + ' $\\rightarrow$ ' +color+  ' Objetivos alcançados'
-    #items = did()
+    #init = weekMap[weekDay] + ' $\\rightarrow$ ' + reportDay  + ' $\\rightarrow$ '+color + 'Objetivos'
+    #items = toDo()
     #writeLaTeX(Init(init),itemize(items))
+    init = weekMap[weekDay] + ' $\\rightarrow$ ' + reportDay + ' $\\rightarrow$ ' +color+  ' Objetivos alcançados'
+    items = did()
+    writeLaTeX(Init(init),itemize(items))
 
 def toDo():
-    items = ['']
+    items = ['haha','hehe','hihi','hoho','huhu','haha','hehe']
     return items
 
 def did():
-    items = ['haha']
+    items = ['haha','hehe','hihi']
     return items
 
 def Init(msg):
